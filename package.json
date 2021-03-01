@@ -1,0 +1,31 @@
+{
+  "name": "crmgraphql",
+  "version": "1.0.0",
+  "description": "GrahpqlCrm",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samdiazven/CRMGrapql.git"
+  },
+  "author": "Samuel Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samdiazven/CRMGrapql"
+  },
+  "homepage": "https://github.com/samdiazven/CRMGrapql#readme",
+  "dependencies": {
+    "apollo-server": "^2.21.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
